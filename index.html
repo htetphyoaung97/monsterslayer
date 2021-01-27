@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Vue small project</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+    <div id="main">
+        <div class="title">
+            <h1>Monster Slayer</h1>
+        </div>
+        <div class="monster-health">
+            <p>Monster Health</p>
+            <div class="monster-heal" :style="monsterHealthStyle"></div>
+        </div>
+        <div class="player-health">
+            <p>Player Health</p>
+            <div class="player-heal" :style="playerHealthStyle"></div>
+        </div>
+        <div class="att-btn">
+            <button @click="attackMonster">Attack</button>
+            <button>Special Attack</button>
+        </div>
+        <div class="def-btn">
+            <button>Surrender</button>
+            <button>Heal</button>
+        </div>
+        <div class="damage-calculation">
+            <h5>Battle Log</h5>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
+    <script src="js/app.js"></script>
+
+</body>
+</html>

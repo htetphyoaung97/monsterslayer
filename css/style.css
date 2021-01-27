@@ -1,0 +1,76 @@
+.title h1 {
+    text-align: center;
+    background: brown;
+    color: white;
+    padding: 25px;
+    margin: 0;
+}
+
+.monster-health, .player-health {
+    width: 500px;
+    margin: 0 auto;
+    height: 100px;
+    background: aliceblue;
+    border-radius: 15px;
+    box-shadow: 1px 1px 4px;
+    padding: 0px 25px;
+}
+
+.monster-health p, .player-health p {
+    margin: 0;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 25px;
+    padding: 10px;
+}
+
+.monster-heal {
+    background: red;
+    text-align: center;
+    font-size: 30px;
+    color: #fafafa;
+    height: 30px;
+}
+
+.player-heal {
+    background: green;
+    text-align: center;
+    font-size: 30px;
+    color: #fafafa;
+    height: 30px;
+}
+
+.att-btn, .def-btn {
+    text-align: center;
+    margin: 25px 0px;
+}
+
+.att-btn button , .def-btn button {
+    padding: 15px 25px;
+    width: 185px;
+    background: red;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.damage-calculation {
+    width: 500px;
+    margin: 0 auto;
+    height: 100px;
+    background: aliceblue;
+    border-radius: 15px;
+    box-shadow: 1px 1px 4px;
+}
+
+.damage-calculation h5 {
+    padding-top: 30px;
+    text-align: center;
+    font-size: 25px;
+    margin: 0px;
+}
